@@ -1,9 +1,94 @@
-<!doctype html>
+<!doctype HTML>
 <html>
-  <head>
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="description" content="HTML Test Page"/>
+        <meta name="author" content=""/>
+        <meta http-equiv="refresh" content="15"/> 
+        <title>Test Page</title>
+        <style></style>
+        <link rel="stylesheet" href="css/index.css"/>
+    </head>
+    <body>
+        <h1 style="text-align:center; background-color: red;">Welcome to test page</h1>
+        <hr/>
+        <div class="nav">Home</div>
+        <div class="nav">News</div>
+        <div class="nav">Articles</div>
+        <div class="nav">About</div>
+        <hr/>
+        <p><strong>Biological Hierarchy Determinism Specificity:</strong></p>
+        <ol type="I" start="I">
+            <li>Kingdom</li>
+            <li>Phylum</li>
+            <li>Class</li>
+            <li>Order</li>
+            <li>Family</li>
+            <li>Genus</li>
+            <li>Species</li>
+        </ol>
+        <hr/>
+        <dl>
+            <dt>Catchword</dt>
+            <dd>A memorable or effective word or phrase that is repeated so often that it becomes a slogan, as in a political campaign or in advertising a product.</dd>
+            <dt>Brief</dt>
+            <dd>lasting or taking a short time; of short duration.</dd>
+        </dl>
+        <hr/>
+        <form action="" method="GET">
+            <p><strong>What's your hobbies:</strong></p>
+            <input id="hobby-1" type="checkbox" name="hobbies" value="reading" checked/>
+            <label for="hobby-1">Reading</label>
+            <input id="hobby-2" type="checkbox" name="hobbies" value="painting"/>
+            <label for="hobby-2">Painting</label>
+            <input id="hobby-3" type="checkbox" name="hoppies" value="traveling"/>
+            <label for="hobby-3">Traveling</label>
+            <input id="hobby-4" type="checkbox" name="hoppies" value="gaming" checked/>
+            <label for="hobby-4">Gaming</label>
+            <hr/>
+            <p><strong>User most products:</strong></p>
+            <input id="product-1" type="radio" name="most-products" value="samsung"/>
+            <label for="product-1">Samsung</label>
+            <input id="product-2" type="radio" name="most-products" value="apple"/>
+            <label for="product-2">Apple</label>
+            <input id="product-3" type="radio" name="most-products" value="sony" checked/>
+            <label for="product-3">Sony</label>
+            <hr/>
+            <label for="most-speed"><strong>Most time speed:</strong></label>
+            <input id="most-speed" type="range" name="car-speed" min="0" max="260" step="20"/>
+            <br/>
+            <input type="submit" value="Share Informations"/>
+        </form>
+        <hr/>
+        <div class="inline">This is inline</div>
+        <div class="inline">This is inline</div>
+        <div class="inline">This is inline</div>
 
-  </head>
-  <body>
-    
-  </body>
+        <div class="block">This is block</div>
+        <div class="block">This is block</div>
+        <div class="block">This is block</div>
+
+        <div class="in-block">This is inline-block</div>
+        <div class="in-block">This is inline-block</div>
+        <div class="in-block">This is inline-block</div>
+        <hr/>
+
+        <h4>This item is hidden</h4>
+        <hr/>
+        <h5>This item is invisible</h5>
+
+        <div>
+            <p>Paragraph inside div</p>
+        </div>
+        <p>Paragraph outside div</p>
+        <hr/>
+
+        <div>
+            <p class="main">Paragraph inside div</p>
+        </div>
+        <p class="main">Paragraph outside div</p>
+        <hr/>
+
+        <div class="changable-width">This div width is changable</div>
+    </body>
 </html>
